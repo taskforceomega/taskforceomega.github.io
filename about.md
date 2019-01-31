@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 ---
 
-Description of Group
+Description and a bit of history of the group
 
-### Contact me
+### Contact
 
 [contact@domain](mailto:contact@domain)
