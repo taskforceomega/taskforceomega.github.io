@@ -1,0 +1,32 @@
+
+//
+// VARIABLES
+//
+
+// Colors
+$blue: #4183C4;
+$orange: #FF7F50;
+$conifer: #B5E853;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+$hacker: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+$hackerBody: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
