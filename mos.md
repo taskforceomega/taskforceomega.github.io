@@ -4,9 +4,9 @@ layout: default
 
 <div class="mos">
   {% for post in site.mos %}
-    <article class="mos">
+    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ mos.url }}">{{ mos.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
         {{ mos.excerpt }}
@@ -15,7 +15,7 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       
       <div class="date">
-        Posted on {{ mos.date | date: "%B %e, %Y" }}
+        Posted on {{ post.date | date: "%B %e, %Y" }}
       </div>
       
     </article>
