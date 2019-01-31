@@ -1,5 +1,5 @@
 ---
-layout: mos
+layout: post
 ---
 
 title: recruit
