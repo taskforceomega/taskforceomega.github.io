@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MOS
-permalink: /resources/mos/
+permalink: /mos/
 ---
 
 MOS List
