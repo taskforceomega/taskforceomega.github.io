@@ -36,9 +36,7 @@
 
     <!-- Use any element to open the sidenav -->
 	  
-    <nav-button><span onclick="openNav()"><i class="fa fa-bars" title="Menu"></i></span></nav-button>
-
-    
+       
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     
     {% include meta.html %}
@@ -55,6 +53,7 @@
 
   <body>
     <div class="wrapper-masthead">
+      <nav-button><span onclick="openNav()"><i class="fa fa-bars" title="Menu"></i></span></nav-button>
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
