@@ -22,6 +22,9 @@ body {
   font: 18px/1.4 $hackerBody;
   color: $white;
 }
+#wrapper {
+  background: url($bannerImage) no-repeat center top;
+}
 
 .container {
   margin: 0 auto;
