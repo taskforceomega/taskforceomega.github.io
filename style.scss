@@ -153,6 +153,7 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   background: url(https://cdn.discordapp.com/attachments/472357540273979422/533466477454557197/image0.jpg) no-repeat center top;
+  margin-top: 50px;
 }
 
 .masthead {	
@@ -166,8 +167,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
