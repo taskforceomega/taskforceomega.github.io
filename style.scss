@@ -151,14 +151,13 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   background: url(https://cdn.discordapp.com/attachments/472357540273979422/533466477454557197/image0.jpg) no-repeat center top;
 }
 
 .masthead {	
   //padding: 20px 0;
   //border-bottom: 1px solid $gray;
-  margin-bottom: 50px;
 
   @include mobile {
     text-align: center;
