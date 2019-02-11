@@ -208,6 +208,10 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  float: center;
+  @include mobile {
+    padding-top: 10px;
+  }
 }
 
 .site-description {
