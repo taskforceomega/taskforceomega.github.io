@@ -152,9 +152,9 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 20px;
-  //background: url(https://cdn.discordapp.com/attachments/472357540273979422/533466477454557197/image0.jpg) no-repeat center top;
+  background: url(https://cdn.discordapp.com/attachments/472357540273979422/533466477454557197/image0.jpg) no-repeat center top;
   //background: url(https://cdn.discordapp.com/attachments/472357540273979422/533111332145332234/image0.jpg) no-repeat center bottom;
-  background: url(https://cdn.discordapp.com/attachments/472357540273979422/528648813536215050/image1.png) no-repeat center bottom;
+  //background: url(https://cdn.discordapp.com/attachments/472357540273979422/528648813536215050/image1.png) no-repeat center bottom;
 }
 
 .masthead {	
@@ -181,6 +181,7 @@ img {
     width: 50px;
     height: 50px;
     float: center;
+    padding-top: 50;
     //display: block;
     //margin: 0 auto;
   }
@@ -210,7 +211,7 @@ img {
   font-size: 28px;
   letter-spacing: 1px;
   float: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .site-description {
