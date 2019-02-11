@@ -15,7 +15,10 @@
 }
 
 nav-button {
-  padding-left: 10px;
-  font-size: 30px;
-  left: 0;
+  font-size: 0px;
+  @include mobile {
+    padding-left: 10px;
+    font-size: 30px;
+    left: 0;
+  }
 }
