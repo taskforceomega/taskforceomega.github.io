@@ -191,7 +191,7 @@ img {
 
 .site-info {
   //float: left;
-  float: none;
+  float: center;
 
   @include mobile {
     float: center;
