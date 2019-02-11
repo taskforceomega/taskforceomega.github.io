@@ -158,10 +158,11 @@ img {
 
 .masthead {	
   padding: 100px 0;
+  text-align: center;
   //border-bottom: 1px solid $gray;
-
+ 
   @include mobile {
-    text-align: center;
+    //text-align: center;
     margin-top: 20px;
     padding: 30px 0;
   }
