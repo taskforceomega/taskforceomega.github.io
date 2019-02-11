@@ -58,6 +58,10 @@
 	    <!--<p class="site-description">{{ site.description }}</p>-->
           </div>
           <nav> 
+
+	    {% for post in site.posts %}
+	      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+	    {% endfor %}
             <a href="{{ site.baseurl }}/about">About Us</a>
             <a href="{{ site.baseurl }}/gallery">Gallery</a>
             <a href="{{ site.baseurl }}/roster">Roster</a>
