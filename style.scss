@@ -219,7 +219,8 @@ img {
   font-size: 16px;
 
   @include mobile {
-    margin: 3px 0;
+    //margin: 3px 0;
+    font-size: 0px;
   }
 }
 
