@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $hacker;
-  color: $conifer;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -69,7 +69,7 @@ p {
 }
 
 a {
-  color: $conifer;
+  color: $white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -251,7 +251,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $conifer;
+      color: $white;
     }
   }
 }
@@ -303,7 +303,7 @@ footer {
 }
 
 .bottom-bar {
-  background-color: $conifer;
+  background-color: $white;
   text-align: justify;
   color: $black;
   body {
