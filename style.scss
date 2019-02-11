@@ -206,11 +206,14 @@ img {
   cursor: pointer;
   font-family: $hacker;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 36px;
   letter-spacing: 1px;
   float: center;
   padding-top: 75px;
   text-align: center;
+  @include mobile {
+    font-size: 28px;
+  }
 }
 
 .site-description {
