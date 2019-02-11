@@ -1,6 +1,7 @@
 nav-button {
   font-size: 0px;
   @include mobile {
+    float: right;
     padding-right: 10px;
     font-size: 30px;
     right: 0;
