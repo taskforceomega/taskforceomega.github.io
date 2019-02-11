@@ -170,6 +170,7 @@ img {
 
 .site-avatar {
   padding-top: 20px;
+  padding-bottom: 20px;
   float: none;
   width: 75px;
   height: 75px;
@@ -209,9 +210,6 @@ img {
   font-size: 28px;
   letter-spacing: 1px;
   float: center;
-  @include mobile {
-    padding-top: 10px;
-  }
 }
 
 .site-description {
