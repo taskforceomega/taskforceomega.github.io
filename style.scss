@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $darkerGray;
+  background: $white;
   font: 18px/1.4 $hackerBody;
-  color: $white;
+  color: $gray;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $hacker;
-  color: $lightGray;
+  color: $gray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $darkGray;
 }
 
 p {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $gray;
+  color: $lightGray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $white;
+    color: $black;
   }
 }
 
@@ -117,17 +117,17 @@ img {
 
 .date {
   font-style: italic;
-  color: $white;
+  color: $lightGray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $white;
-  background: $darkGray;
+  color: $lightGray;
+  background: $white;
 }
 ::selection {
-  color: $white;
-  background: $darkGray;
+  color: $darkGray;
+  background: $white;
 }
 
 // Nicolas Gallagher's micro clearfix hack
