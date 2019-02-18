@@ -20,7 +20,7 @@ html {
 body {
   background: $white;
   font: 18px/1.4 $hackerBody;
-  color: $gray;
+  color: $darkGray;
 }
 
 .container {
@@ -69,7 +69,7 @@ p {
 }
 
 a {
-  color: $lightGray;
+  color: $gray;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -117,12 +117,12 @@ img {
 
 .date {
   font-style: italic;
-  color: $lightGray;
+  color: $gray;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $lightGray;
+  color: $gray;
   background: $white;
 }
 ::selection {
