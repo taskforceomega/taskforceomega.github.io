@@ -1,21 +1,21 @@
 # Site settings
-title: Redshift Logistics
-email: contact@redshiftlogistics.online
-url: https://redshiftlogistics.online
-description: "Redshift Logistics is an independant corporation bringing an array of services to the galaxy"
+title: Task Force Omega
+email: contact@taskforceomega.co.uk
+url: https://taskforceomega.co.uk
+description: "Task Force Omega is private military company"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#D5205E'
+  links: '#219ab3'
 
 # Footer settings
-footer: Redshift Logistics
+footer: Task Force Omega
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/rlog_elite
+#social:
+#  - title: twitter
+#    url: https://twitter.com/rlog_elite
 #  - title: facebook
 #    url:
 #  - title: stack-overflow
