@@ -1,87 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-  <head>
-
-    <!-- import font awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script>
-      /* Set the width of the side navigation to 250px */
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "100%";
-	document.getElementById("mySidenav").style.backgroundColor = "rgba(0,0,0,0.8)";
-      }
-
-      /* Set the width of the side navigation to 0 */
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
-    </script>
-
-
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="items">
-        <a href="{{ site.baseurl }}/about">About Us</a>
-        <a href="{{ site.baseurl }}/gallery">Gallery</a>
-        <a href="{{ site.baseurl }}/roster">Roster</a>
-        <a href="{{ site.baseurl }}/enlist">Enlist</a>
-      </div>
-    </div>
-
-    <!-- Use any element to open the sidenav -->
-
-
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <nav-button><span onclick="openNav()"><i class="fa fa-bars" title="Menu"></i></span></nav-button>
-      <div class="container">
-	      <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-        <header class="masthead clearfix">
-	        <div class="site-info">
-          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-	    <!--<p class="site-description">{{ site.description }}</p>-->
-          </div>
-          <nav>
-            <a href="{{ site.baseurl }}/about">About Us</a>
-            <a href="{{ site.baseurl }}/gallery">Gallery</a>
-            <a href="{{ site.baseurl }}/roster">Roster</a>
-            <a href="{{ site.baseurl }}/enlist">Enlist</a>
-          </nav>
-        </header>
-      </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-
-    <!--
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-    -->
-
-    {% include analytics.html %}
-  </body>
+    {% include head.html %}
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include about.html %}
+    {% include join.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
 </html>
