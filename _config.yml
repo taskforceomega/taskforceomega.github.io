@@ -2,12 +2,12 @@
 title: Task Force Omega
 email: contact@taskforceomega.co.uk
 url: https://taskforceomega.co.uk/index.html
-description: "Task Force Omega is an Xbox One Milsim Community"
+description: "Task Force Omega is a global provider of military training, security operations and logistical support"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  secondary-dark: '#'
+#  secondary-dark: '#'
   links: '#C6C49D'
 
 # Images
