@@ -12,6 +12,8 @@ color:
 # Images
 images:
   header-image: 'https://cdn.discordapp.com/attachments/472357540273979422/570231668602961920/image4.jpg'
+  join-image: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
+  services-image: ''
 
 # Footer settings
 footer: Task Force Omega
