@@ -8,12 +8,12 @@ description: "Task Force Omega is an Xbox One Milsim Community"
 color:
   primary-dark: '#000000'
   links: '#C6C49D'
-  
+
 # Images
 images:
-  header-image: 'https://cdn.discordapp.com/attachments/472357540273979422/570231668602961920/image4.jpg'
-  join-image: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
-  services-image: ''
+  header: 'https://cdn.discordapp.com/attachments/472357540273979422/570231668602961920/image4.jpg'
+  forward-operations:
+  join-us: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
 
 # Footer settings
 footer: Task Force Omega
