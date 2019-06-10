@@ -17,7 +17,7 @@ images:
   security: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
   logistics:
   join-us: 'https://cdn.discordapp.com/attachments/472357540273979422/578590244983799821/TFOEcho_TomClancysGhostReconWildlandsStandardEdition_20190511_23-58-34.png'
-  #about-us
+#  about-us
   contact-us: 'https://cdn.discordapp.com/attachments/472357540273979422/544772653274103829/image0.jpg'
 # Footer settings
 footer: Task Force Omega
