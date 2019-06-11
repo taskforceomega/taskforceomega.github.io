@@ -252,11 +252,47 @@ a:focus {
     padding-top: 100px;
 }
 
+.security {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url({{ site.images.security }}) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.logistics {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url({{ site.images.logistics }}) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .join-us {
     width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url({{ site.images.join-us }}) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-us {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url({{ site.images.contact-us }}) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
