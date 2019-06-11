@@ -290,6 +290,7 @@ a:focus {
 
 .contact-us {
     width: 100%;
+    padding: 50px 0;
     color: #fff;
     background: url({{ site.images.contact-us }}) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};

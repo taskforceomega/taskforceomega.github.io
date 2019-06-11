@@ -15,6 +15,12 @@ images:
   security: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
   join-us: 'https://cdn.discordapp.com/attachments/472357540273979422/578590244983799821/TFOEcho_TomClancysGhostReconWildlandsStandardEdition_20190511_23-58-34.png'
   contact-us: 'https://cdn.discordapp.com/attachments/472357540273979422/544772653274103829/image0.jpg'
+
+  header: 'https://cdn.discordapp.com/attachments/472357540273979422/570231668602961920/image4.jpg'
+  security: 'https://cdn.discordapp.com/attachments/472357540273979422/544772653274103829/image0.jpg'
+  join-us: 'https://cdn.discordapp.com/attachments/472357540273979422/570231669873967115/image3.jpg'
+  contact-us: ''
+
 # Footer settings
 footer: Task Force Omega
 
