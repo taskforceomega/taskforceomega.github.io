@@ -4,19 +4,8 @@
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Objective Generator</h2>
-                    <iframe id="myFrame" src="https://mo0tognbq4.execute-api.eu-west-1.amazonaws.com/objective" frameBorder="0" scrolling="no">
-                    </iframe>
-
-                    <script>
-                    var frame = document.getElementById('myFrame');
-                        frame.onload = function () {
-                            var body = frame.contentWindow.document.querySelector('body');
-                            body.style.color = 'white';
-                            body.style.fontSize = '20px';
-                            body.style.lineHeight = '20px';
-                        };
-                    </script>
-                    
+                    <iframe src="https://mo0tognbq4.execute-api.eu-west-1.amazonaws.com/objective" frameBorder="0" scrolling="no">
+                    </iframe>          
                 </div>
             </div>
         </div>
