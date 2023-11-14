@@ -21,27 +21,38 @@
                     }
                   </style>
                 
-                  <ol>
-                    <li><strong>Upload Your Modlist File:</strong>
-                      <ul>
-                        <li>Prepare a text file containing your Arma Reforger server modlist, a line separated list of arma reforger workshop URLs. Use hash comments to exclude mods from configuration output (e.g., <code>modlist.txt</code>).</li>
-                        <li>Click the "Check Modlist" button and select your modlist file.</li>
-                      </ul>
-                    </li>
+                  
+                   <strong>Upload Your Modlist File:</strong>
+                     
+                    Prepare a text file containing your Arma Reforger server modlist, a line separated list of arma reforger workshop URLs. Use hash comments to exclude mods from configuration output e.g 
+                    <code>
+                    ##basegame everon("scenarioId": "{59AD59368755F41A}Missions/21_GM_Eden.conf")
+                    ##kunar map({3EBEEA57FD4D2E5D}missions/GM_KunarRagion.conf)
+                    https://reforger.armaplatform.com/workshop/5C9691EA7FD7A79F-KunarProvince-Afghanistan
+                    #utility mods
+                    https://reforger.armaplatform.com/workshop/5C9758250C8C56F1-BonActionAnimations
+                    https://reforger.armaplatform.com/workshop/5C73156675E11A0F-GMPERSISTENTLOADOUTS
+                    https://reforger.armaplatform.com/workshop/5D0551624969C92E-ZELIKSCHARACTER
+                    https://reforger.armaplatform.com/workshop/59A30ACC02650E71-NIGHTVISIONSYSTEM
+                    https://reforger.armaplatform.com/workshop/5AB301290317994A-SuppressorSystem
+                    https://reforger.armaplatform.com/workshop/5ABD0CB57F7E9EB1-RISLASERATTACHMENTS
+                    https://reforger.armaplatform.com/workshop/5C5EBCE1BAFE1C01-LAB6Markers
+                    https://reforger.armaplatform.com/workshop/5E2C151D5A3DAC30-NoNameTags
+                    https://reforger.armaplatform.com/workshop/5CB16584BACB2D5D-LAB6MARKERS-HIDECHARACTERS
+                    https://reforger.armaplatform.com/workshop/5994AD5A9F33BE57-GameMasterFX
+                    </code>
+                    Click the "Check Modlist" button and select your modlist file.                   
                 
-                    <li><strong>Review and Copy:</strong>
-                      <ul>
-                        <li>The script will process your modlist, and the formatted JSON output will be displayed in the result box.</li>
-                        <li>Click the "Copy to Clipboard" button to copy the generated JSON to your clipboard.</li>
-                      </ul>
-                    </li>
-                
-                    <li><strong>Paste into Server Configuration:</strong>
-                      <ul>
-                        <li>Paste the copied JSON into your Arma Reforger server mod configuration where the modlist is specified.</li>
-                      </ul>
-                    </li>
-                  </ol>
+                    <strong>Review and Copy:</strong>
+                      
+                    The script will process your modlist, and the formatted JSON output will be displayed in the result box.
+                    Click the "Copy to Clipboard" button to copy the generated JSON to your clipboard.
+                    <strong>Paste into Server Configuration:</strong>
+                      
+                    Paste the copied JSON into your Arma Reforger server mod configuration where the modlist is specified.
+                      
+                    
+                  
                 
                   <input type="file" id="modlistFile" accept=".txt">
                   <button onclick="checkModlist()">Check Modlist</button>
