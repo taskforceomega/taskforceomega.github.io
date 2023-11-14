@@ -7,6 +7,19 @@
                  <p>This script helps Arma Reforger server administrators check and format their server modlist in JSON format. The generated output can be copied to the clipboard for easy use.</p>
                 
                   <h2>Usage</h2>
+
+                  <style>
+                    button {
+                      color: black;
+                    }
+                    #modlistResult {
+                      text-align: left;
+                      text-shadow: none;
+                    }
+                    body {
+                        text-align: left;
+                    }
+                  </style>
                 
                   <ol>
                     <li><strong>Upload Your Modlist File:</strong>
@@ -29,15 +42,7 @@
                       </ul>
                     </li>
                   </ol>
-                  <style>
-                    button {
-                      color: black;
-                    }
-                    #modlistResult {
-                      text-align: left;
-                      text-shadow: none;
-                    }
-                  </style>
+                
                   <input type="file" id="modlistFile" accept=".txt">
                   <button onclick="checkModlist()">Check Modlist</button>
                   <button onclick="copyToClipboard()">Copy to Clipboard</button>
