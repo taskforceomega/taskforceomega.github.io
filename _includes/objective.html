@@ -1,11 +1,59 @@
-    <!-- Objective Generator -->
+    <!-- Mod Manager -->
     <section id="objective" class="content-section text-center">
         <div class="objective">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Objective Generator</h2>
-                    <iframe src="https://mo0tognbq4.execute-api.eu-west-1.amazonaws.com/objective" frameBorder="0" scrolling="no" height="350">
-                    </iframe>          
+                  <input type="file" id="modlistFile" accept=".txt">
+                  <button onclick="checkModlist()">Check Modlist</button>
+                  <pre id="modlistResult"></pre>
+                
+                  <script>
+                    function checkModlist() {
+                      const fileInput = document.getElementById('modlistFile');
+                      const file = fileInput.files[0];
+                
+                      if (file) {
+                        const reader = new FileReader();
+                
+                        reader.onload = function (event) {
+                          const modlistContent = event.target.result;
+                          processModlist(modlistContent);
+                        };
+                
+                        reader.readAsText(file);
+                      } else {
+                        console.error('No file selected.');
+                      }
+                    }
+                
+                    function processModlist(modlistContent) {
+                      const modEntries = [];
+                
+                      // Split the modlist content by lines
+                      const lines = modlistContent.split('\n');
+                
+                      lines.forEach(line => {
+                        const lineTrimmed = line.trim();
+                
+                        // Check if the trimmed line is not empty and not a comment
+                        if (lineTrimmed !== '' && !lineTrimmed.startsWith('#')) {
+                          // Split the URL by '/' and get the final part
+                          const finalPart = lineTrimmed.split('/').pop();
+                
+                          // Split the final part by the first '-' and get both parts
+                          const [part1, part2] = finalPart.split('-');
+                
+                          // Create a JSON object for the mod entry and add it to the array
+                          const modEntry = { modId: part1, name: part2, version: '' };
+                          modEntries.push(modEntry);
+                        }
+                      });
+                
+                      // Output the mod entries as a JSON array
+                      const modlistResult = document.getElementById('modlistResult');
+                      modlistResult.textContent = JSON.stringify(modEntries, null, 2);
+                    }
+                  </script>
                 </div>
             </div>
         </div>
